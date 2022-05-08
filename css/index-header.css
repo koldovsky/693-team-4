@@ -1,3 +1,26 @@
 .header__top {
-background-color: var(--background-color);
+    background-color: var(--background-color);
+}
+
+.header__banner {
+    background-image: url(../img/header/header-banner.jfif);
+    min-height: 720px;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 120px 0 130px 0;
+}
+
+.header__top-link {
+    color: var(--main-text-color);
+    text-decoration: none;
+}
+
+.header__main-navigator {
+    background-color: var(--background-color);
+    color: var(--main-text-color);
+}
+
+.header__main-navigator-link {
+    color: var(--main-text-color);
+    text-decoration: none;
 }
