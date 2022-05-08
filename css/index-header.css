@@ -7,12 +7,20 @@
     display:block;
 }
 
+.header__top-link:hover {
+color:#c8693a;
+}
+
 .header__banner {
     background-image: url(../img/header/header-banner.jfif);
     min-height: 720px;
     background-size: cover;
     background-attachment: fixed;
     padding: 120px 0 130px 0;
+    color: var(--main-text-color);
+    text-decoration: none;
+}
+.header__banner-link {
     color: var(--main-text-color);
     text-decoration: none;
 }
