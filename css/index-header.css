@@ -27,9 +27,26 @@
      text-decoration: none;
  }
 
- .header__banner-link {
+ .header__banner-link-shop {
      color: var(--main-text-color);
      text-decoration: none;
+     background-color: var(--main-link-text-color);
+ }
+
+ .header__banner-link-shop:hover {
+     background-color: #ca5d27;
+ }
+
+ .header__banner-link-learn {
+     color: var(--main-text-color);
+     background-color: rgba(0, 0, 0, 0);
+     text-decoration: none;
+     border: 2px solid white;
+ }
+
+ .header__banner-link-learn:hover {
+     background-color: white;
+     color: var(--background-color);
  }
 
  .header__main-navigator {
