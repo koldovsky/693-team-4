@@ -1,0 +1,74 @@
+.faq{
+    background-color: var(--background-color);
+    font-family: 'Prata', serif;
+}
+.faq_col_one{
+    margin: 25px;    
+}
+.faq_faq{
+    font-family: 'Great Vibes', cursive;
+    color: var(--main-link-text-color);
+    font-size: 14px;
+}
+.text_faq{
+    font-family: 'Prata', serif;
+    font-size: 34px;
+    color: var(--main-text-color);
+    padding-top: 20px;
+}
+.accordion_faq li{
+    list-style: none;
+}
+.accordion_faq h1{
+    font-size: 22px;
+    color: var(--main-text-color);
+    font-family: 'Prata', serif;
+    font-weight: 400;
+    padding-top: 20px;
+}
+.accordion_faq p{
+    font-family: 'Rubik', sans-serif;
+    color: var(--hidden-text-color);
+    font-size: 16px;
+    font-weight: 400;
+}
+.img_faq{
+    width: 170px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.faq_cards{
+    margin: 35px;
+    padding-bottom: 50px;
+}
+.faq_cards h1{
+    font-size: 22px;
+    font-weight: 400;
+    color: var(--main-text-color);   
+    margin-top: 15px;
+    margin-bottom: 15px; 
+}
+.faq_cards p{
+    font-weight: 400;
+    font-size: 16px;
+    font-family: 'Rubik', sans-serif;
+    color: var(--hidden-text-color);
+    margin-bottom: 50px;
+    line-height: 25.6px
+}
+.faq_cards svg{
+    background-color: rgb(52, 46, 46);
+    color: var(--main-link-text-color);
+    padding: 11px;
+    border-radius: 35px;
+}
+.divider{
+    display: block;
+    width: 10px;
+    height: 2.5px;
+    background-color: var(--main-link-text-color);
+    margin-bottom: 20px;
+}
+.faq_col_two img{
+    max-width: 500px;
+}
