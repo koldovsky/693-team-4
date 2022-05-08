@@ -1,6 +1,11 @@
 .header__top {
     background-color: var(--background-color);
 }
+.header__top-link {
+    color: var(--main-text-color);
+    text-decoration: none;
+    display:block;
+}
 
 .header__banner {
     background-image: url(../img/header/header-banner.jfif);
@@ -8,9 +13,6 @@
     background-size: cover;
     background-attachment: fixed;
     padding: 120px 0 130px 0;
-}
-
-.header__top-link {
     color: var(--main-text-color);
     text-decoration: none;
 }
