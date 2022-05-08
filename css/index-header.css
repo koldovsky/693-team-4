@@ -1,14 +1,15 @@
 .header__top {
     background-color: var(--background-color);
 }
+
 .header__top-link {
     color: var(--main-text-color);
     text-decoration: none;
-    display:block;
+    display: block;
 }
 
 .header__top-link:hover {
-color:#c8693a;
+    color: var(--main-link-text-color);
 }
 
 .header__banner {
@@ -20,6 +21,7 @@ color:#c8693a;
     color: var(--main-text-color);
     text-decoration: none;
 }
+
 .header__banner-link {
     color: var(--main-text-color);
     text-decoration: none;
@@ -33,4 +35,7 @@ color:#c8693a;
 .header__main-navigator-link {
     color: var(--main-text-color);
     text-decoration: none;
+}
+.header__main-navigator-link:hover {
+    text-decoration: underline;
 }
