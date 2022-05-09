@@ -20,7 +20,7 @@
 .units {
     font-size: 30px;
     font-family: Prata, serif;
-    /* замінити на color або background-color а такого атрибута як fon color не існує --font-color: #E6E6FA; */
+   color: #E6E6FA; 
 }
 
 
