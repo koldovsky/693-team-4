@@ -1,0 +1,66 @@
+.Katya-block {
+    margin: 0;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    text-align: center;
+    font-family: Prata, serif;
+    color: #261e1c;
+    font-size: 25px;
+
+}
+
+.countdown {
+    position:
+}
+
+.span__timer {
+    font-size: 55px;
+    line-height: 1.1;
+
+}
+
+.units {
+    font-size: 30px;
+    font-family: Prata, serif;
+    font-color: #E6E6FA;
+}
+
+
+.timer_section {
+
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+
+    border-radius: 10px;
+    display: inline-block;
+
+    font-size: 45px;
+    font-family: Prata, serif;
+
+    text-align: center;
+    border: 1px solid black;
+
+}
+
+.location__imeg {
+    width: 250px;
+    height: 250px;
+    margin: 25px;
+}
+
+.location {
+
+    display: inline-block;
+
+}
+
+.location h4 {
+    border: 1px solid black;
+    background-color: #F0F8FF;
+}
+
+.photo_link {
+    border: 2px solid black;
+    padding: 10px;
+}
