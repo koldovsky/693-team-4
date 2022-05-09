@@ -9,9 +9,7 @@
 
 }
 
-.countdown {
-    position:
-}
+/* .countdown {} */
 
 .span__timer {
     font-size: 55px;
@@ -22,7 +20,7 @@
 .units {
     font-size: 30px;
     font-family: Prata, serif;
-    font-color: #E6E6FA;
+    /* замінити на color або background-color а такого атрибута як fon color не існує --font-color: #E6E6FA; */
 }
 
 
