@@ -18,3 +18,8 @@
 .history__h4 {
     color: var(--hidden-text-color);
 }
+
+div {
+    color: white;
+}
+
