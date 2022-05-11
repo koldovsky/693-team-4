@@ -65,7 +65,6 @@
     color: #261e1c;
     font-size: 22px;
     font-family: Rubik, light;
-
 }
 
 .photo_location {
@@ -81,7 +80,6 @@
 .location__imeg {
     width: 250px;
     height: 250px;
-
 }
 
 
@@ -91,7 +89,6 @@
 }
 
 .photo_link {
-
     border: 2px solid black;
     padding: 10px;
 }
