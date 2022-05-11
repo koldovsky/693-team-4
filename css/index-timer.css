@@ -1,57 +1,89 @@
-.timer-photo {
+.timer_photo {
     margin: 0;
     padding-top: 100px;
     padding-bottom: 50px;
     text-align: center;
-    font-family: Prata, serif;
     color: #261e1c;
     font-size: 25px;
-
 }
 
-/* .countdown {} */
+.timer {
+    margin-top: 0;
+    margin-bottom: 200px;
+}
 
-.span__timer {
+.timer_text_sale {
+    color: #261e1c;
     font-size: 55px;
+    font-family: Prata, serif;
     line-height: 1.1;
+    letter-spacing: 0.5px;
+}
 
+.countdown {
+    display: flex;
+    flex-direction: column;
+}
+
+@media(min-width:640px) {
+    .countdown {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+    }
+}
+
+
+
+.timer_section {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    border-radius: 10px;
+    /*display:inline-block;*/
+    font-size: 45px;
+    font-family: Prata, serif;
+    text-align: center;
+    border: 1px solid black;
 }
 
 .units {
     font-size: 30px;
     font-family: Prata, serif;
-   color: #E6E6FA; 
+    color: #261e1c;
 }
 
-
-.timer_section {
-
-    width: 200px;
-    height: 200px;
-    margin: 10px;
-
-    border-radius: 10px;
-    display: inline-block;
-
-    font-size: 45px;
+.timer_text_plan {
+    color: #261e1c;
+    font-size: 42px;
     font-family: Prata, serif;
+    line-height: 1.2;
+}
 
-    text-align: center;
+.photo_text_group {
+    color: #261e1c;
+    font-size: 22px;
+    font-family: Rubik, light;
+
+}
+
+.photo_location {
+    margin-bottom: 30;
+}
+
+.location {
+    margin: 30px;
     border: 1px solid black;
-
+    display: inline-block;
 }
 
 .location__imeg {
     width: 250px;
     height: 250px;
-    margin: 25px;
-}
-
-.location {
-
-    display: inline-block;
 
 }
+
 
 .location h4 {
     border: 1px solid black;
@@ -59,6 +91,7 @@
 }
 
 .photo_link {
+
     border: 2px solid black;
     padding: 10px;
 }
