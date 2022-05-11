@@ -1,0 +1,20 @@
+.deals {
+    background-color: var(--background-color);
+    text-align: center;
+}
+
+.deals__p {
+    color: #c8693a;
+}
+
+.history {
+    background-color: var(--background-color);
+}
+
+.history__p {
+    color: #c8693a
+}
+
+.history__h4 {
+    color: var(--hidden-text-color);
+}
