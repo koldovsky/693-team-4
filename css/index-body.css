@@ -26,3 +26,26 @@ div {
 .text-block {
     color: rgb(137,128,130);
 }
+
+.buy-wine-or-learn-more {
+    background-image: url(../img/main/main-banner-background.jpeg);
+    background-color:#261e1c;
+    background-size: cover;
+    background-position: 50% 50%;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.button {
+    padding: 0.35em 1.2em;
+    border: 0.1em solid white;
+    margin: 0 0.3em 0.3em 0;
+    border-radius: 0.12em;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    transition: color 0.7s;
+    background-color: transparent;
+}
