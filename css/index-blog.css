@@ -7,9 +7,10 @@
     font-family: 'Great Vibes', cursive;
     color: var(--main-link-text-color);
     font-size: 28px;
+    font-weight: normal;
 }
 
-.blog_header_h1 {
+.blog_header_p {
     font-family: 'Prata', serif;
     font-size: 48px;
     color: var(--main-text-color);
