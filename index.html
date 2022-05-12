@@ -14,57 +14,65 @@
 <body>
     <!-- Oleksandr block start -->
     <header class="header">
-        <div class="header__top">
-            <div class="header__top-navigator">
-                <a class="header__link" href="index.html">
-                    <img class="header__logo-img " src="img/header/header-logo.svg" width="176" height="50" alt="logo">
-                </a>
-                <a class="header__top-link" href="#best-deals">Best Deals</a>
-                <a class="header__top-link" href="#history">History</a>
-                <a class="header__top-link" href="#about">About Us</a>
-                <a class="header__top-link" href="#shop">Shop</a>
-                <a class="header__top-link" href="#contact-form">Contact Us</a>
-                <div class="heder__top-link-brands">
-                    <a class="header__top-link" href="http://facebook.com">
-                        <i class="fa-brands fa-facebook-f"></i>
-                    </a>
-                    <a class="header__top-link" href="http://instagram.com">
-                        <i class="fa-brands fa-instagram"></i>
-                    </a>
-                    <a class="header__top-link" href="http://youtube.com">
-                        <i class="fa-brands fa-youtube"></i>
+        <div class="header__container">
+            <nav class="header__top">
+                <div class="header__top-navigator-logo">
+                    <a class="header__link" href="index.html">
+                        <img class="header__logo-img " src="img/header/header-logo.svg" width="176" height="50"
+                            alt="logo">
+                        <div class="header__navigation-burger"><span></span></div>
                     </a>
                 </div>
+                <div class="header__top-navigator">
+                    <div class="header__top-pages">
+                        <a class="header__top-pages-link" href="#best-deals">Best Deals</a>
+                        <a class="header__top-pages-link" href="#history">History</a>
+                        <a class="header__top-pages-link" href="#about">About Us</a>
+                        <a class="header__top-pages-link" href="#shop">Shop</a>
+                        <a class="header__top-pages-link" href="#contact-form">Contact Us</a>
+                    </div>
+                    <div class="heder__top-link-social">
+                        <a class="header__top-social-link" href="http://facebook.com">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+                        <a class="header__top-social-link" href="http://instagram.com">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                        <a class="header__top-social-link" href="http://youtube.com">
+                            <i class="fa-brands fa-youtube"></i>
+                        </a>
+                    </div>
+                </div>
+            </nav>
+            <div class="header__banner">
+                <p class="header__banner-taste-our">Taste our</p>
+                <h2 class="header__banner-h2">Boutique Wines</h2>
+                <img class="header__banner-element" src="img/header/header-banner-element.svg" alt="element">
+                <p class="header__banner-p">Grown with love and respect for the California lands.</p>
+                <div>
+                    <a class="header__banner-link-shop" href="#shop">Shop now</a>
+                    <a class="header__banner-link-learn" href="#advantages">Learn more</a>
+                </div>
             </div>
-        </div>
-        <div class="header__banner">
-            <p class="header__banner-taste-our">Taste our</p>
-            <h2 class="header__banner-h2">Boutique Wines</h2>
-            <img class="header__banner-element" src="img/header/header-banner-element.svg" alt="element">
-            <p class="header__banner-p">Grown with love and respect for the California lands.</p>
-            <div>
-                <a class="header__banner-link-shop" href="#shop">Shop now</a>
-                <a class="header__banner-link-learn" href="#advantages">Learn more</a>
+            <div class="header__main-navigator">
+                <article class="header__main-navigator-1">
+                    <h2 class="header__main-navigator-h1">For You Special Events</h2>
+                    <p class="header__main-navigator-p">We have a great collection of exclusive reserve wines.</p>
+                    <a class="header__main-navigator-link" href="#best-deals">Learn more → </a>
+                </article>
+                <article class="header__main-navigator-2">
+                    <h2 class="header__main-navigator-h1">100% Organic Wines</h2>
+                    <p class="header__main-navigator-p">Only natural wine without all kinds of additives or flavors.</p>
+                    <a class="header__main-navigator-link" href="#advantages">Learn more → </a>
+                </article>
+                <article class="header__main-navigator-3">
+                    <h2 class="header__main-navigator-h1">Selected Grape Varieties</h2>
+                    <p class="header__main-navigator-p">We produce and sell the finest wines made of the best grape
+                        varieties.</p>
+                    <a class="header__main-navigator-link" href="#advantages">Learn more → </a>
+                </article>
             </div>
-        </div>
-        <div class="header__main-navigator">
-            <article class="header__main-navigator-1">
-                <h2 class="header__main-navigator-h1">For You Special Events</h2>
-                <p class="header__main-navigator-p">We have a great collection of exclusive reserve wines.</p>
-                <a class="header__main-navigator-link" href="#best-deals">Learn more → </a>
-            </article>
-            <article class="header__main-navigator-2">
-                <h2 class="header__main-navigator-h1">100% Organic Wines</h2>
-                <p class="header__main-navigator-p">Only natural wine without all kinds of additives or flavors.</p>
-                <a class="header__main-navigator-link" href="#advantages">Learn more → </a>
-            </article>
-            <article class="header__main-navigator-3">
-                <h2 class="header__main-navigator-h1">Selected Grape Varieties</h2>
-                <p class="header__main-navigator-p">We produce and sell the finest wines made of the best grape
-                    varieties.</p>
-                <a class="header__main-navigator-link" href="#advantages">Learn more → </a>
-            </article>
-        </div>
+            <script src="js/burger-menu.js"></script>
     </header>
     <!-- Oleksandr block end -->
 
@@ -283,26 +291,31 @@
                         <div class=tm_wrapper_slider_text>
                             <div class="tm_wrapper_slider_article">
                                 <div class="slider_text slider_text_positions">
-                                <p>“I really like to please myself with good wine with
-                                a rich taste. Therefore, from time to time, I order wine directly from the CaliWines
-                                winery. I also buy Chardonnay and Cabernet for family holidays. We are completely
-                                delighted with the amazing taste of these wines, which we want to enjoy endlessly.”</p>
+                                    <p>“I really like to please myself with good wine with
+                                        a rich taste. Therefore, from time to time, I order wine directly from the
+                                        CaliWines
+                                        winery. I also buy Chardonnay and Cabernet for family holidays. We are
+                                        completely
+                                        delighted with the amazing taste of these wines, which we want to enjoy
+                                        endlessly.”</p>
                                 </div>
                             </div>
                             <div class="tm_wrapper_slider_article">
                                 <div class="slider_text slider_text_positions">
-                                <p>“We were to hold a responsible event with a buffet
-                                table and wanted to surprise our guests with some local products. I recalled that we
-                                have the CaliWines winery in California and ordered 10 bottles of Chardonnay. Our
-                                guests were delighted and asked for the name of the producer!”</p>
+                                    <p>“We were to hold a responsible event with a buffet
+                                        table and wanted to surprise our guests with some local products. I recalled
+                                        that we
+                                        have the CaliWines winery in California and ordered 10 bottles of Chardonnay.
+                                        Our
+                                        guests were delighted and asked for the name of the producer!”</p>
                                 </div>
                             </div>
                             <div class="tm_wrapper_slider_article">
                                 <div class="slider_text slider_text_positions">
-                                <p>“Our restaurant has been cooperating with this
-                                winery for over 10 years. We order the whole range of wines from them. We are
-                                completely satisfied with the quality of the wine supplied to us. And our guests
-                                often choose CaliWines from our wine menu.”</p>
+                                    <p>“Our restaurant has been cooperating with this
+                                        winery for over 10 years. We order the whole range of wines from them. We are
+                                        completely satisfied with the quality of the wine supplied to us. And our guests
+                                        often choose CaliWines from our wine menu.”</p>
                                 </div>
                             </div>
                         </div>
@@ -330,7 +343,8 @@
                     <h2 class="blog_header_name">Blog</h2>
                     <p class="blog_header_p">World of Wines</p>
                     <img class="blog_header_logo" src="img/blog/logo.svg" alt="Blog">
-                    <p class="blog_header_text">Read our articles if you want to know more about wine production and selection.</p>
+                    <p class="blog_header_text">Read our articles if you want to know more about wine production and
+                        selection.</p>
                 </div>
                 <!--Blog main-->
                 <div class="blog_main">
