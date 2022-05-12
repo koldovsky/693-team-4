@@ -1,0 +1,45 @@
+.Testimonials_section {
+    background-color: var(--background-color);
+    background-image: url(../img/testimonials/wallpapers.png);
+    background-size: cover;
+    background-position: center;
+    padding: 50px 15px 50px 15px;
+}
+.tm_header {
+    text-align: center;
+}
+.tm_header_name {
+    font-family: 'Great Vibes', cursive;
+    color: var(--main-link-text-color);
+    font-size: 28px;
+}
+
+.tm_header_h1 {
+    font-family: 'Prata', serif;
+    font-size: 48px;
+    color: var(--main-text-color);
+    padding-top: 20px;
+}
+
+.tm_header_logo {
+    width: 150px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 25px;
+}
+
+.tm_header_text { 
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.tm_main_slider_content_p { 
+    font-family: 'Rubik', sans-serif;
+    color: var(--hidden-text-color);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.tm_header_logo {
+    object-fit: contain;
+}

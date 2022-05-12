@@ -1,0 +1,45 @@
+#blog {
+    background-color: var(--background-color);
+    padding: 50px 15px 50px 15px;
+}
+
+.blog_header_name {
+    font-family: 'Great Vibes', cursive;
+    color: var(--main-link-text-color);
+    font-size: 28px;
+}
+
+.blog_header_h1 {
+    font-family: 'Prata', serif;
+    font-size: 48px;
+    color: var(--main-text-color);
+    padding-top: 20px;
+}
+
+.blog_header_logo {
+    width: 150px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 25px;
+}
+.blog_header_text { 
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.blog_header {
+    text-align: center;
+}
+
+.blog_main {
+    margin-top: 50px;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blog_main_text {
+    font-size: 24px;
+    font-weight: 600;
+}
