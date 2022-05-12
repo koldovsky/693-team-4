@@ -71,7 +71,7 @@ justify-content: center;
     line-height: 0
 }
 
-#tm_main_slider article {
+#tm_main_slider .tm_wrapper_slider_article {
     width: 20%;
     height: 200px;
     float: left;
@@ -201,7 +201,7 @@ justify-content: center;
     background: #c8693a
 }
 
-#tm_main_slider #slide1:checked~.tm_wrapper_slider article:nth-child(1) .slider_text, #tm_main_slider #slide2:checked~.tm_wrapper_slider article:nth-child(2) .slider_text, #tm_main_slider #slide3:checked~.tm_wrapper_slider article:nth-child(3) .slider_text, #tm_main_slider #slide4:checked~.tm_wrapper_slider article:nth-child(4) .slider_text, #tm_main_slider #slide5:checked~.tm_wrapper_slider article:nth-child(5) .slider_text {
+#tm_main_slider #slide1:checked~.tm_wrapper_slider .tm_wrapper_slider_article:nth-child(1) .slider_text, #tm_main_slider #slide2:checked~.tm_wrapper_slider .tm_wrapper_slider_article:nth-child(2) .slider_text, #tm_main_slider #slide3:checked~.tm_wrapper_slider .tm_wrapper_slider_article:nth-child(3) .slider_text, #tm_main_slider #slide4:checked~.tm_wrapper_slider .tm_wrapper_slider_article:nth-child(4) .slider_text, #tm_main_slider #slide5:checked~.tm_wrapper_slider .tm_wrapper_slider_article:nth-child(5) .slider_text {
     opacity: 1
 }
 #tm_main_slider #slide1:checked~.tm_wrapper_slider .tm_wrapper_slider_text {
