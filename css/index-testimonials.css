@@ -1,4 +1,4 @@
-.testimonials_section {
+.tm_section {
     background-color: var(--background-color);
     background-image: url(../img/testimonials/wallpapers.png);
     background-size: cover;
@@ -65,11 +65,13 @@ justify-content: center;
 #tm_main_slider input {
     display: none
 }
+
 #tm_main_slider .tm_wrapper_slider_text {
     width: 500%;
     line-height: 0
 }
-  #tm_main_slider article {
+
+#tm_main_slider article {
     width: 20%;
     height: 200px;
     float: left;
