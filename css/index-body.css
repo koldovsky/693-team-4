@@ -38,7 +38,6 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 1100px;
 }
 
 .history__ul {
@@ -75,11 +74,17 @@
 
 section {
     color: white;
-    background-color:#261e1c;
+    background-color: var(--background-color);
 }
 
 h2 {
     text-align: center;
+    font-family: Prata, serif;
+}
+
+h3 {
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
 }
 
 span {
@@ -87,20 +92,33 @@ span {
     text-align: center;
 }
 
+.main-blocks-color {
+    color: var(--main-link-text-color);
+    font-family: Great Vibes, undefined;
+}
+
+.top-content-block {
+    margin-top: 10px;
+}
 
 .text-block {
-    color: rgb(137, 128, 130);
+    color: var(--hidden-text-color);
     text-align: center;
+
 }
 
 .body-section-banner {
     display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 
 
 .buy-wine-or-learn-more {
     background-image: url(../img/main/main-banner-background.jpeg);
-    background-color: #261e1c;
+    background-attachment: scroll;
+    background-color: var(--background-color);
     background-size: cover;
     background-position: 50% 50%;
     min-height: 400px;
@@ -108,12 +126,13 @@ span {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    
 }
 
 #button {
     display: block;
     width: auto;
-    margin: 40px;
+    margin: auto;
 }
 
 .button {
