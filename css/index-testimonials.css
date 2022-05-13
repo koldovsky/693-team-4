@@ -134,9 +134,25 @@ justify-content: center;
 }
   
 #tm_main_slider .slider_text.slider_text_positions {
-    bottom: 30px;
-    right: 300px;
-    left: 300px;
+    top: 50%;
+    right: 20%;
+    left: 20%;
+}
+
+@media (max-width: 900px) { 
+    #tm_main_slider .slider_text.slider_text_positions {
+        top: 10%;
+        right: 5%;
+        left: 5%;
+    }
+}
+
+@media (max-width: 1370px) { 
+    #tm_main_slider .slider_text.slider_text_positions {
+        top: 40%;
+        right: 10%;
+        left: 10%;
+    }
 }
   
 #tm_main_slider .tm_wrapper_slider {
