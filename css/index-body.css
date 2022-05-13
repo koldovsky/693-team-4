@@ -23,13 +23,29 @@ div {
     color: white;
 }
 
-.text-block {
-    color: rgb(137,128,130);
+h2 {
+    text-align: center;
 }
+
+span {
+    display: block;
+    text-align: center;
+}
+
+
+.text-block {
+    color: rgb(137, 128, 130);
+    text-align: center;
+}
+
+.body-section-banner {
+    display: block;
+}
+
 
 .buy-wine-or-learn-more {
     background-image: url(../img/main/main-banner-background.jpeg);
-    background-color:#261e1c;
+    background-color: #261e1c;
     background-size: cover;
     background-position: 50% 50%;
     min-height: 400px;
@@ -38,6 +54,13 @@ div {
     align-items: center;
     justify-content: center;
 }
+
+#button {
+    display: block;
+    width: auto;
+    margin: 40px;
+}
+
 .button {
     padding: 0.35em 1.2em;
     border: 0.1em solid white;
