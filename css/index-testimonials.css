@@ -2,7 +2,7 @@
     background-color: var(--background-color);
     background-image: url(../img/testimonials/wallpapers.png);
     background-size: cover;
-    background-size: contain;
+    background-repeat: no-repeat;
     background-position: center;
     padding: 50px 15px 50px 15px;
 }
