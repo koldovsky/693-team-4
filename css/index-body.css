@@ -75,7 +75,7 @@
 
 section {
     color: white;
-    background-color:#261e1c;
+    background-color: var(--background-color);
 }
 
 h2 {
@@ -87,9 +87,12 @@ span {
     text-align: center;
 }
 
+.main-blocks-color {
+    color: var(--main-link-text-color);
+}
 
 .text-block {
-    color: rgb(137, 128, 130);
+    color: var(--hidden-text-color);
     text-align: center;
 }
 
@@ -100,7 +103,7 @@ span {
 
 .buy-wine-or-learn-more {
     background-image: url(../img/main/main-banner-background.jpeg);
-    background-color: #261e1c;
+    background-color: var(--background-color);
     background-size: cover;
     background-position: 50% 50%;
     min-height: 400px;
