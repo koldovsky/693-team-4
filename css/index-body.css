@@ -73,8 +73,9 @@
     font-weight: 400;
 }
 
-div {
+section {
     color: white;
+    background-color:#261e1c;
 }
 
 h2 {
