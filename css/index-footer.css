@@ -6,6 +6,10 @@
     padding: 0 40px;
 }
 
+.footer__mass-mailing-block {
+
+}
+
 span.footer__mass-mailing-span {
     font-family: 'Great Vibes';
     color: #c8693a;
@@ -15,6 +19,7 @@ span.footer__mass-mailing-span {
 .footer__h4 {
     color: white;
     font-family: 'Prata', serif;
+    font-weight: 400;
 }
 
 .footer__h3 {
@@ -57,4 +62,31 @@ span.footer__mass-mailing-span {
     margin: 0 0 0 30px;
 }
 
+.footer__menu {
+    display: flex;
+    justify-content: space-between;
+}
 
+.footer__link {
+    display: block;
+    color: #898082;
+    text-decoration: none;
+}
+
+.footer__menu-contacts a {
+    display: block;
+    color: #898082;
+    text-decoration: none;
+}
+
+.footer__menu-contacts-social {
+    display: flex;
+    
+}
+
+.rights {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 15px 40px;
+}
