@@ -1,22 +1,76 @@
 .deals {
     background-color: var(--background-color);
     text-align: center;
+    color: var(--main-text-color);
 }
 
 .deals__p {
-    color: #c8693a;
+    color: var(--main-link-text-color);
+    font-family: 'Great Vibes', cursive;
+    font-size: 28px;
+}
+
+.deals__h2 {
+    font-family: 'Prata', serif;
+    font-size: 48px;
+    color: var(--main-text-color);
+    padding-top: 20px;
+}
+
+.deals__img {
+    display: block;
+    width: 150px;
+    margin: 0 auto;
+    margin-top: 25px;
+}
+
+.deals__subheader {
+    color: var(--main-text-color);
+    font-size: 18px;
+    margin-top: 20px
 }
 
 .history {
     background-color: var(--background-color);
 }
 
+.history__img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1100px;
+}
+
+.history__ul {
+    display: flex;
+    justify-content: space-around;
+}
+
 .history__p {
-    color: #c8693a
+    color: var(--main-link-text-color);
 }
 
 .history__h4 {
+    color: var(--main-text-color);
+    font-size: 22px;
+    font-weight: 400;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.divider__history {
+    height: 2px;
+    width: 15%;
+    background-color: var(--main-link-text-color);
+    margin-bottom: 20px;
+}
+
+.history__subheader {
     color: var(--hidden-text-color);
+    font-size: 16px;
+    line-height: 1.6;
+    font-family: Rubik, sans-serif;
+    font-weight: 400;
 }
 
 div {
