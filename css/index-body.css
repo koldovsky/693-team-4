@@ -80,7 +80,12 @@ section {
 
 h2 {
     text-align: center;
-    font-family: Prata,serif;
+    font-family: Prata, serif;
+}
+
+h3 {
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
 }
 
 span {
@@ -90,7 +95,7 @@ span {
 
 .main-blocks-color {
     color: var(--main-link-text-color);
-    font-family: Great Vibes,undefined;
+    font-family: Great Vibes, undefined;
 }
 
 .top-content-block {
@@ -100,11 +105,14 @@ span {
 .text-block {
     color: var(--hidden-text-color);
     text-align: center;
-    
+
 }
 
 .body-section-banner {
     display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 
 
@@ -123,7 +131,7 @@ span {
 #button {
     display: block;
     width: auto;
-    margin: 40px;
+    margin: auto;
 }
 
 .button {
