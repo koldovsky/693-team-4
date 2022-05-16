@@ -77,21 +77,28 @@
     background-color: var(--background-color);
 }
 
-h2 {
+.h2-body {
     text-align: center;
     font-family: Prata, serif;
 }
 
-h3 {
+.h3-body {
     text-align: center;
     font-family: 'Rubik', sans-serif;
 }
 
+.row-conteiner {
+    display: flex;  
+    flex-direction: column;
+    justify-content: center; 
+    height: 30px; 
+   }
+
 .row {
 background-color: var(--main-link-text-color);    
-height:2px;
-width:15%;
 border: 1px solid var(--main-link-text-color);
+height: 1px;
+width:15%;
 }
 
 span {
@@ -118,7 +125,8 @@ span {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    height: 100%;
+    width: 100%;
 }
 
 
@@ -134,7 +142,7 @@ span {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    
+
 }
 
 #button {
