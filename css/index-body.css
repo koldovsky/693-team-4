@@ -72,7 +72,7 @@
     font-weight: 400;
 }
 
-section {
+ .page-natural {
     color: white;
     background-color: var(--background-color);
 }
@@ -116,6 +116,7 @@ span {
 
 
 .buy-wine-or-learn-more {
+    color: white;
     background-image: url(../img/main/main-banner-background.jpeg);
     background-attachment: scroll;
     background-color: var(--background-color);
