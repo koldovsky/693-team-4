@@ -145,20 +145,32 @@ span {
 }
 
 
-#button {
-    display: block;
+#.buttons-block {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
     width: auto;
     margin: auto;
 }
 
-.button {
+.button1 {
+    display: flex;
+    background-color: var(--main-link-text-color);
     padding: 0.35em 1.2em;
-    border: 0.1em solid white;
-    margin: 0 0.3em 0.3em 0;
+    margin: 0 0.3em 1.3em 0;
     border-radius: 0.12em;
-    color: white;
+    color: var(--main-text-color);
     text-decoration: none;
     text-align: center;
-    transition: color 0.7s;
+    }
+
+.button2 {
+    display: flex;
+    padding: 0.35em 1.2em;
+    border: 0.2em solid var(--main-text-color);
+    margin: 0 0.3em 0.3em 0;
+    border-radius: 0.12em;
+    color: var(--main-text-color);
+    text-decoration: none;
     background-color: transparent;
 }
