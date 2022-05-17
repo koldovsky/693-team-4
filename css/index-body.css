@@ -72,20 +72,23 @@
     font-weight: 400;
 }
 
- .page-natural {
-    color: var(--main-text-color);
-    background-color: var(--background-color);
-}
 
-.h2-body {
-    text-align: center;
-    font-family: Prata, serif;
-}
+   .page-natural {
+       color: var(--main-text-color);
+       background-color: var(--background-color);
+       
+    }
+
+    .h2-body {
+        text-align: center;
+        font-family: Prata, serif;
+    }
 
 .h3-body {
     text-align: center;
     font-family: 'Rubik', sans-serif;
-}
+    margin: 0 20px;
+  }
 
 .row-conteiner {
     display: flex;  
@@ -99,6 +102,7 @@ background-color: var(--main-link-text-color);
 border: 1px solid var(--main-link-text-color);
 height: 1px;
 width:15%;
+align-self: center;
 }
 
 span {
@@ -118,7 +122,8 @@ span {
 .text-block {
     color: var(--hidden-text-color);
     text-align: center;
-
+    padding-left: 10px;
+    padding-right: 10px;    
 }
 
 .vine-image {
@@ -137,7 +142,7 @@ span {
     background-color: var(--background-color);
     background-size: cover;
     background-position: 50% 50%;
-    min-height: 400px;
+    min-height: 470px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -174,3 +179,5 @@ span {
     text-decoration: none;
     background-color: transparent;
 }
+
+
