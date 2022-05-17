@@ -121,19 +121,19 @@ span {
 
 }
 
-.body-section-banner {
+.vine-image {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    height: 100%;
-    width: 100%;
+    height: 50%;
+    width: 50%;
 }
 
 
 .buy-wine-or-learn-more {
     color: var(--main-text-color);
     background-image: url(../img/main/main-banner-background.jpeg);
-    background-attachment: scroll;
+    background-attachment: fixed;
     background-color: var(--background-color);
     background-size: cover;
     background-position: 50% 50%;
@@ -142,8 +142,8 @@ span {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-
 }
+
 
 #button {
     display: block;
