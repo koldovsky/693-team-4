@@ -72,17 +72,16 @@
     font-weight: 400;
 }
 
+/*korchak block start*/
+.page-natural {
+    color: var(--main-text-color);
+    background-color: var(--background-color);   
+}
 
-   .page-natural {
-       color: var(--main-text-color);
-       background-color: var(--background-color);
-       
-    }
-
-    .h2-body {
-        text-align: center;
-        font-family: Prata, serif;
-    }
+.h2-body {
+   text-align: center;
+   font-family: Prata, serif;
+}
 
 .h3-body {
     text-align: center;
@@ -180,4 +179,19 @@ span {
     background-color: transparent;
 }
 
+@media (min-width: 770px) {
+    .page-natural {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 3fr;    
+    }   
 
+    .top-content-block {
+        display: grid;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+}
+/*korchak block end*/
