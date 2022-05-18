@@ -13,10 +13,13 @@
     --main-text-color: white;
     --background-color: #261e1c;
     --main-link-text-color: #c8693a;
+    --main-button-press-background-color: #af572b;
     --hidden-text-color: rgb(137, 128, 130);
     --svg-icons-background: rgb(52, 46, 46);
-    --header-opasity-navbar-background: rgba(0, 0, 0, 0%);
+    --header-opasity-0-navbar-background: rgba(0, 0, 0, 0%);
+    --header-opasity-20-navbar-background: rgba(0, 0, 0, 20%);
     --header-burger-menu-background: rgb(26, 21, 18);
+    --dark-color:rgb(0, 0, 0);
 }
 
 img {

@@ -27,19 +27,30 @@
     align-items: center;
 }
 
+@media (min-width: 992px) {
+    .header__navigation {
+        background-color: var(--header-opasity-20-navbar-background);
+    }
+
+    .header__navigation-wrapper {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+        width: 100%;
+    }
+}
+
 .header__navigation-wrapper {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
     align-items: center;
 }
 
 .header__navigation-links {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    flex-direction: column;
-    margin-bottom: 60px;
+    flex-direction: row;
 }
 
 .header__navigation-link {
@@ -67,6 +78,7 @@
     display: flex;
     width: 25px;
     height: 25px;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     margin: 7px;
@@ -75,15 +87,21 @@
     border: 1px solid var(--main-link-text-color);
 }
 
+.header__navigation-social-link:hover {
+    background-color: var(--main-link-text-color);
+    color: var(--header-opasity-navbar-backgound);
+}
 
 
 @media (max-width: 991px) {
     body.lock {
         overflow: hidden;
     }
-    
+
     .header__navigation-wrapper {
         position: fixed;
+        justify-content: center;
+        flex-direction: column;
         top: -100%;
         left: 0;
         width: 100%;
@@ -92,10 +110,23 @@
         transition: top 0.3s ease-in;
         overflow: hidden;
         margin: auto;
+
     }
 
     .header__navigator-logo {
         z-index: 2;
+    }
+
+    .header__navigation-links {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-bottom: 60px;
+    }
+
+    .header__navigation-link {
+        margin: 15px;
     }
 
     .header__navigation-wrapper.active {
@@ -192,12 +223,14 @@
         font-size: 18px;
     }
 
-    .header__banner-link-shop {
+    .header__banner-button-shop {
         padding: 12px;
+        margin: 10px;
     }
 
-    .header__banner-link-learn {
+    .header__banner-button-learn {
         padding: 10px;
+        margin: 10px;
     }
 }
 
@@ -217,27 +250,37 @@
     text-align: center;
 }
 
-.header__banner-link-shop {
+.header__banner-button {
+    margin: 20px;
+}
+
+.header__banner-button-shop {
     color: var(--main-text-color);
     text-decoration: none;
     background-color: var(--main-link-text-color);
-    padding: 4px;
+    padding: 7px;
+    margin: 5px;
+    width: 100%;
+    font-weight: bold;
 }
 
-.header__banner-link-shop:hover {
-    background-color: #ca5d27;
+.header__banner-button-shop:hover {
+    background-color: var(--main-button-press-background-color);
 }
 
-.header__banner-link-learn {
+.header__banner-button-learn {
     color: var(--main-text-color);
-    background-color: rgba(0, 0, 0, 0);
+    background-color: var(--header-opasity-0-navbar-background);
     text-decoration: none;
-    border: 2px solid white;
-    padding: 2px;
+    border: 2px solid var(--main-text-color);
+    padding: 5px;
+    margin: 5px;
+    width: 100%;
+    font-weight: bold;
 }
 
-.header__banner-link-learn:hover {
-    background-color: white;
+.header__banner-button-learn:hover {
+    background-color: var(--main-text-color);
     color: var(--background-color);
 }
 
@@ -264,7 +307,7 @@
     background-image: url(../img/header/header-main-navigator-1.jfif);
     background-repeat: no-repeat;
     background-size: cover;
-    border: 0.2px solid black;
+    border: 0.2px solid var(--dark-color);
     width: auto;
     height: 430px;
     display: flex;
@@ -279,7 +322,7 @@
     background-image: url(../img/header/header-main-navigator-2.jfif);
     background-repeat: no-repeat;
     background-size: cover;
-    border: 0.2px solid black;
+    border: 0.2px solid var(--dark-color);
     width: auto;
     height: 430px;
     display: flex;
@@ -294,7 +337,7 @@
     background-image: url(../img/header/header-main-navigator-3.jfif);
     background-repeat: no-repeat;
     background-size: cover;
-    border: 0.2px solid black;
+    border: 0.2px solid var(--dark-color);
     width: auto;
     height: 430px;
     display: flex;
@@ -319,7 +362,7 @@
 
 .header__main-navigator-p {
     margin: 35px 0;
-    color: #898082;
+    color: var(--hidden-text-color);
 }
 
 .header__main-navigator-link {
