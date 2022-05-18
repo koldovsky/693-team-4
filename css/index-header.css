@@ -4,6 +4,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     z-index: 1;
+    background-position: 69% 43%;
 }
 
 .header__navigator-logo {
@@ -110,7 +111,6 @@
         transition: top 0.3s ease-in;
         overflow: hidden;
         margin: auto;
-
     }
 
     .header__navigator-logo {
@@ -131,7 +131,6 @@
 
     .header__navigation-wrapper.active {
         top: 0;
-
     }
 }
 
@@ -205,6 +204,13 @@
 }
 
 @media (min-width: 991px) {
+    
+    .header__banner {
+        align-items: flex-start;
+        justify-content: center;
+        padding-left: 50%;
+    }
+    
     .header__banner-taste-our {
         font-size: 28px;
     }
