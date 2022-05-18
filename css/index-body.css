@@ -206,7 +206,7 @@ span {
 }
 
 
-#.buttons-block {
+.buttons-block {
     display: flex;
     flex-direction: column;
     justify-items: center;
