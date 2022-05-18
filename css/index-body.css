@@ -247,6 +247,11 @@ span {
         padding-right: 20px;                 
     }   
 
+    .wine-main-image {
+        display: flex;
+        object-fit: contain;
+        aspect-ratio: 1/1;
+    }
     .top-content-block {
         grid-area: head;
         margin-bottom: 80px;
