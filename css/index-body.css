@@ -2,6 +2,7 @@
     background-color: var(--background-color);
     text-align: center;
     color: var(--main-text-color);
+    padding-top: 70px;
 }
 
 .deals__p {
@@ -27,7 +28,7 @@
 .deals__subheader {
     color: var(--main-text-color);
     font-size: 18px;
-    margin-top: 20px
+    margin-top: 20px;
 }
 
 .history {
@@ -35,14 +36,20 @@
 }
 
 .history__img {
+    background-color: var(--background-color);
     display: block;
     margin-left: auto;
     margin-right: auto;
+    padding-top: 70px;
+    margin-bottom: 50px;
 }
 
 .history__ul {
-    display: flex;
-    justify-content: space-around;
+    display: flex;  
+    flex-direction: column;
+    justify-content: center; 
+    padding-left: 150px;
+    padding-right: 150px;
 }
 
 .history__p {
@@ -73,6 +80,11 @@
 }
 
 @media (min-width: 340px) {
+
+    .history__img {
+        max-width: 70%;
+    }
+
     .history__ul {
         display: grid;
         grid-template-columns: 1fr;
@@ -80,6 +92,11 @@
 }
 
 @media (min-width: 640px) {
+
+    .history__img {
+        max-width: 60%;
+    }
+
     .history__ul {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -87,6 +104,11 @@
 }
 
 @media (min-width: 960px) {
+
+    .history__img {
+        max-width: 70%;
+    }
+
     .history__ul {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
@@ -94,6 +116,11 @@
 }
 
 @media (min-width: 1100px) {
+
+    .history__img {
+        max-width: 80%;
+    }
+
     .history__ul {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
