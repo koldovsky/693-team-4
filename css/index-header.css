@@ -21,7 +21,7 @@
 
 .header__navigation {
     padding: 30px 40px 30px 27px;
-    background-color: var(--header-opasity-navbar-backgound);
+    background-color: var(--header-opasity-0-navbar-backgound);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -89,7 +89,7 @@
 
 .header__navigation-social-link:hover {
     background-color: var(--main-link-text-color);
-    color: var(--header-opasity-navbar-backgound);
+    color: var(--header-opasity-0-navbar-backgound);
 }
 
 
