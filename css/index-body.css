@@ -129,6 +129,7 @@
 
 
 /*korchak block start*/
+
 .page-natural {
     color: var(--main-text-color);
     background-color: var(--background-color);   
@@ -267,6 +268,16 @@ span {
 
     .button-content-block2 {
         grid-area: block2;
+    }
+
+    .buttons-block {
+        display: flex;
+        flex-direction: row;
+        align-items: baseline;
+    }
+
+    .button1 {
+        border: 0.2em solid var(--main-link-text-color);
     }
 }
 
