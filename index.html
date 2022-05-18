@@ -13,36 +13,33 @@
 
 <body>
     <!-- Oleksandr block start -->
-    <header class="header">
+    <header>
         <div class="header__container">
-            <nav class="header__top">
-                <div class="header__top-navigator-logo">
-                    <a class="header__link" href="index.html">
+            <nav class="header__navigation">
+                <div class="header__navigator-logo">
+                    <a href="index.html">
                         <img class="header__logo-img " src="img/header/header-logo.svg" width="176" height="50"
                             alt="logo">
                     </a>
-                    <div class="header__navigation-burger"><span></span></div>
                 </div>
-                <div class="header__top-navigator">
-                    <div class="header__top-pages">
-                        <a class="header__top-pages-link" href="#best-deals">Best Deals</a>
-                        <a class="header__top-pages-link" href="#history">History</a>
-                        <a class="header__top-pages-link" href="#about">About Us</a>
-                        <a class="header__top-pages-link" href="#shop">Shop</a>
-                        <a class="header__top-pages-link" href="#contact-form">Contact Us</a>
+                <div class="header__navigation-wrapper">
+                    <div class="header__navigation-links">
+                        <a class="header__navigation-link" href="#best-deals">Best Deals</a>
+                        <a class="header__navigation-link" href="#history">History</a>
+                        <a class="header__navigation-link" href="#about">About Us</a>
+                        <a class="header__navigation-link" href="#shop">Shop</a>
+                        <a class="header__navigation-link" href="#contact-form">Contact Us</a>
                     </div>
-                    <div class="heder__top-link-social">
-                        <a class="header__top-social-link" href="http://facebook.com">
-                            <i class="fa-brands fa-facebook-f"></i>
-                        </a>
-                        <a class="header__top-social-link" href="http://instagram.com">
-                            <i class="fa-brands fa-instagram"></i>
-                        </a>
-                        <a class="header__top-social-link" href="http://youtube.com">
-                            <i class="fa-brands fa-youtube"></i>
-                        </a>
+                    <div class="header__navigation-socials">
+                        <a class="header__navigation-social-link" href="http://facebook.com"><i
+                                class="fa-brands fa-facebook-f"></i></a>
+                        <a class="header__navigation-social-link" href="http://instagram.com"><i
+                                class="fa-brands fa-instagram"></i></a>
+                        <a class="header__navigation-social-link" href="http://youtube.com"><i
+                                class="fa-brands fa-youtube"></i></a>
                     </div>
                 </div>
+                <div class="header__navigation-burger"><span></span></div>
             </nav>
             <div class="header__banner">
                 <p class="header__banner-taste-our">Taste our</p>
@@ -54,6 +51,8 @@
                     <a class="header__banner-link-learn" href="#advantages">Learn more</a>
                 </div>
             </div>
+        </div>
+        <div class="header__container-main">
             <div class="header__main-navigator">
                 <article class="header__main-navigator-1">
                     <h2 class="header__main-navigator-h2">For You Special Events</h2>
@@ -62,7 +61,8 @@
                 </article>
                 <article class="header__main-navigator-2">
                     <h2 class="header__main-navigator-h2">100% Organic Wines</h2>
-                    <p class="header__main-navigator-p">Only natural wine without all kinds of additives or flavors.</p>
+                    <p class="header__main-navigator-p">Only natural wine without all kinds of additives or flavors.
+                    </p>
                     <a class="header__main-navigator-link" href="#advantages">Learn more → </a>
                 </article>
                 <article class="header__main-navigator-3">
@@ -73,6 +73,8 @@
                 </article>
             </div>
         </div>
+        <script src="js/burger-menu.js">
+        </script>
     </header>
     <!-- Oleksandr block end -->
 
@@ -178,7 +180,7 @@
                 <h3 class="h3-body">We use only 100% natural grapes, no impurities.</h3><br>
             </div>
             <div class="wine-image">
-              <img class="wine-main-image" src="img/main/main-banner-bottle.png" alt="bottle of wine"><br>
+                <img class="wine-main-image" src="img/main/main-banner-bottle.png" alt="bottle of wine"><br>
             </div>
             <div class="button-content-block1">
                 <h3 class="h3-body">Amazing Taste</h3>
@@ -196,25 +198,25 @@
                     <div class="row"></div>
                 </div>
                 <span class="text-block">Grapes for wine production are grown in an ecologically clean place.</span><br>
+            </div>
+            <div class="button-content-block2">
+                <h3 class="h3-body">Natural Fermentation</h3><br>
+                <div class="row-conteiner">
+                    <div class="row"></div>
                 </div>
-                <div class="button-content-block2">
-                 <h3 class="h3-body">Natural Fermentation</h3><br>
-                   <div class="row-conteiner">
+                <span class="text-block">We do not add alcohol or any additives to increase ABV.</span><br>
+                <h3 class="h3-body">Wine Aging</h3><br>
+                <div class="row-conteiner">
                     <div class="row"></div>
-                   </div>
-                  <span class="text-block">We do not add alcohol or any additives to increase ABV.</span><br>
-                  <h3 class="h3-body">Wine Aging</h3><br>
-                  <div class="row-conteiner">
+                </div>
+                <span class="text-block">Before bottling, the wine is aged in special oak barrels.</span><br>
+                <h3 class="h3-body">Classic Varieties</h3><br>
+                <div class="row-conteiner">
                     <div class="row"></div>
-                  </div>
-                 <span class="text-block">Before bottling, the wine is aged in special oak barrels.</span><br>
-                 <h3 class="h3-body">Classic Varieties</h3><br>
-                  <div class="row-conteiner">
-                    <div class="row"></div>
-                  </div>
-                 <span class="text-block">From Chardonnay to Syrah, we offer classic wines that everyone
+                </div>
+                <span class="text-block">From Chardonnay to Syrah, we offer classic wines that everyone
                     likes.</span><br>
-                </div>
+            </div>
             </div>
         </section>
         <section class="buy-wine-or-learn-more"><br>
