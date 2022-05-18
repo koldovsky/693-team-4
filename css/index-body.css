@@ -72,6 +72,35 @@
     font-weight: 400;
 }
 
+@media (min-width: 340px) {
+    .history__ul {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (min-width: 640px) {
+    .history__ul {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width: 960px) {
+    .history__ul {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media (min-width: 1100px) {
+    .history__ul {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+
+
 /*korchak block start*/
 .page-natural {
     color: var(--main-text-color);
