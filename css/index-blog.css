@@ -17,12 +17,17 @@
     padding-top: 20px;
 }
 
+.blog_header_text {
+    color: var(--main-text-color);
+}
+
 .blog_header_logo {
     width: 150px;
     display: block;
     margin: 0 auto;
     margin-top: 25px;
 }
+
 .blog_header_text { 
     font-size: 18px;
     margin-top: 20px;
@@ -43,4 +48,5 @@
 .blog_main_text {
     font-size: 24px;
     font-weight: 600;
+    color: var(--main-text-color);
 }
