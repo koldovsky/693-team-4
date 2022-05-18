@@ -89,7 +89,7 @@
 
 .header__navigation-social-link:hover {
     background-color: var(--main-link-text-color);
-    color: var(--header-opasity-0-navbar-background);
+    color: var(--header-burger-menu-background);
 }
 
 
