@@ -117,3 +117,8 @@
 .slick-arrow.slick-hidden {
     display: none;
 }
+
+.multiple-items {
+    max-width: 50%;
+    
+}
