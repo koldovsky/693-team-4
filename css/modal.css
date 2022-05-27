@@ -46,7 +46,7 @@
     color: var(--main-text-color);
     padding-top: 80px;        
 }
-    
+ 
 .modal_window_logo {
     width: 150px;
     display: block;
@@ -107,8 +107,40 @@
     font-weight: bold;
     font-size: 15px;
 }
+
+.modal_newpage {
+    background-color: var(--background-color);
+    width: 100vw;
+    height: 100vh;
+}
+
+.modal_newpage_section {
+    text-align: center;
+    padding: 0 20%;
+    position: fixed; 
+    top: 20%;
+    
+
+}
+
+.modal_newpage_p {
+    font-family: 'Prata', serif;
+    font-size: 84px;
+    color: var(--main-text-color);
+    padding-top: 80px;
+    text-align: center;        
+}
+ 
+.modal_newpage_logo {
+    width: 150px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 25px;
+}
         
-       
-        
-       
-        
+.modal_newpage_text {
+    color: var(--main-text-color);
+    font-size: 16px;
+    margin-top: 20px;
+    text-align: center;
+}
