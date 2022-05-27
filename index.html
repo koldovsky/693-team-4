@@ -367,6 +367,18 @@
             </div>
         </div>
     </section>
+    <div id="overlay">
+        <div class="modal">
+            <p class="modal_p">Confirm Your Age</p>
+            <img class="modal_logo" src="img/blog/logo.svg" alt="Testimonials">
+            <p class="modal_text">We don't sell alcohol to minors. Please confirm that you are over 21 years old to enter this site.</p>
+
+            <div class="modal_button">
+                <button class="close" title="Менше 18 років" onclick="document.getElementById('overlay').style.display='none';">Yes, I'm 18+</button>
+                <button class="open" title="Більше 18 років" href="google.com">No, I'm under 18</button>
+            </div>
+        </div>
+    </div>
     <!-- VOLODYA KUTEN block end-->
     <!-- Yulianna block start -->
     <div id="faq" class="faq">
@@ -566,12 +578,16 @@
         </div>
     </footer>
     <!-- Olvian block end -->
+    <script type="text/javascript">
+        var delay_popup = 1;	setTimeout("document.getElementById('overlay').style.display='block'", delay_popup);
+    </script>
     <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
     <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script src="slick/slick.min.js"></script>    
     <script src="slick/slick.css"></script> -->
     <script src="slick/slick.min.js"></script>
     <script src="js/main.js"></script>
+    
 </body>
 
 </html>
