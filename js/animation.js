@@ -5,35 +5,37 @@
       '<div class="slide"><img src="img/main/giphy.gif"></div>' 
    ]; 
 
-//    let firstSlide = 0;
+   let currentSlide = 0;
 
 //    function renderAnimation() {
 //       const slideContainer = document.querySelector('.wine-animation .slide');
-//       slideContainer.innerHTML = slides[secondSlide];
-    
-//    }
+//       slideContainer.innerHTML = slides[currentSlide];
+// //    }
+function renderAnimation(){
+    const slideContainer = document.querySelector('.wine-animation .slide');
+    slideContainer.innerHTML = slides[currentSlide];
+}
 
-//    function nextSlide() {
-//         secondSlide = firstSlide + 1;
-//         renderAnimation();
-//    }
-
-//    function prevSlide() {
-//        secondSlide = currentSlide - 1 <= 0 ? slides.length - 1 : currentSlide - 1;
-//        renderCarousel();
-//    }
+   function nextSlide() {
+    currentSlide = currentSlide + 1 >= slides.length ? 0 : currentSlide + 1;
+    renderAnimation();
+   }
+   function prevSlide() {
+    currentSlide = currentSlide - 1 <= 0 ? slides.length - 1 : currentSlide - 1;
+       renderAnimation();
+   }
 
 //    setInterval(nextSlide, 1000);
 
-//    renderAnimation();
+   renderAnimation();
 
-//    const showAnimation = document.querySelector('.wine-animation);
-//    showAnimation.addEventListener('mouseenter', nextSlide);
+   const showAnimation = document.querySelector('.wine-animation');
+   showAnimation.addEventListener('mouseenter', nextSlide);
 
-// //    const btnBack = document.querySelector('.main-products-carousel .back');
-// //    btnBack.addEventListener('click', prevSlide);
+   const hideAnimation = document.querySelector('.wine-animation');
+   hideAnimation.addEventListener('mouseleave', prevSlide);
 
 //    window.addEventListener('resize', renderAnimation);
-
+   
 
 })();
