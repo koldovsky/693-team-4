@@ -16,20 +16,20 @@ function renderAnimation(){
     currentSlide = currentSlide + 1 >= slides.length ? 0 : currentSlide + 1;
     renderAnimation();
    }
-//    function prevSlide() {
-//     currentSlide = currentSlide - 1 <= 0 ? slides.length - 1 : currentSlide - 1;
-//        renderAnimation();
-//    }
+   // function prevSlide() {
+   //  currentSlide = currentSlide - 1 <= 0 ? slides.length - 1 : currentSlide - 1;
+   //     renderAnimation();
+   // }
 
    // setInterval(nextSlide, 1000);
 
    renderAnimation();
-
-   const showAnimation = document.querySelector('.wine-animation');
+   
+   const showAnimation = document.querySelector('.wine-animation .slide');
    showAnimation.addEventListener('mouseenter', nextSlide);
 
-   const hideAnimation = document.querySelector('.wine-animation');
-   hideAnimation.addEventListener('mouseleave', prevSlide);
+   // const hideAnimation = document.querySelector('.wine-animation .slide');
+   // hideAnimation.addEventListener('mouseout', prevSlide);
 
 //    window.addEventListener('resize', renderAnimation);
    
