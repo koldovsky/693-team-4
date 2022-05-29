@@ -153,6 +153,9 @@
     justify-content: center; 
     height: 30px; 
    }
+.wine-animation {
+    margin-bottom: auto;
+}   
 
 .row {
 background-color: var(--main-link-text-color);    
