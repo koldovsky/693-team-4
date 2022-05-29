@@ -50,6 +50,7 @@
     justify-content: center; 
     padding-left: 150px;
     padding-right: 150px;
+    list-style-type: none;
 }
 
 .history__p {

@@ -17,7 +17,12 @@
     height: 90%;
 }
 
-.back .forward {
+.back {
+    width: 50px;
+    height: 25px;
+}
+
+.forward {
     width: 50px;
     height: 25px;
 }
