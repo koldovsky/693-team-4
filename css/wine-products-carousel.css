@@ -1,0 +1,24 @@
+.wine-products-carousel  {
+    background-color: var(--background-color);
+}
+
+.wine-products-carousel {
+    display: flex;
+    justify-content: space-between;
+    padding: 70px;
+}
+
+.wine-products-carousel .slide {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.wine-products-carousel img {
+    height: 90%;
+}
+
+.back .forward {
+    width: 50px;
+    height: 25px;
+}
+
