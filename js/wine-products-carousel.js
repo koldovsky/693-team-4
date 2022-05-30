@@ -28,7 +28,7 @@
     }
 
     function prevSlide() {
-        currentSlide = currentSlide - 1 >= 0 ? slides.length - 1 : currentSlide - 1;
+        currentSlide = currentSlide - 1 <= 0 ? slides.length - 1 : currentSlide - 1;
         renderCarousel();
     }
 
