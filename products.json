@@ -1,0 +1,30 @@
+[
+    {
+        "id": "1",
+        "name": "Cabernet",
+        "description": "Some description",
+        "price": 10.99,
+        "imgUrl": "img/wine-products/cabernet.jpeg"
+    },
+    {
+        "id": "2",
+        "name": "Sauvignon blanc",
+        "description": "Some description",
+        "price": 13.99,
+        "imgUrl": "img/wine-products/sauvignon-blanc.jpeg"
+    },
+    {
+        "id": "3",
+        "name": "Syrah",
+        "description": "Some description",
+        "price": 12.99,
+        "imgUrl": "img/wine-products/syrah.jpeg"
+    },
+    {
+        "id": "4",
+        "name": "pinot-grigio",
+        "description": "Some description",
+        "price": 11.99,
+        "imgUrl": "img/wine-products/pinot-grigio.jpeg"
+    }
+]
