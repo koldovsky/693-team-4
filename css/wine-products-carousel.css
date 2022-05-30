@@ -10,7 +10,8 @@
 
 .wine-products-carousel .slide {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
+  
 }
 
 .wine-products-carousel img {
@@ -20,10 +21,12 @@
 .back {
     width: 50px;
     height: 25px;
+    margin-top: 160px;
 }
 
 .forward {
     width: 50px;
     height: 25px;
+    margin-top: 160px;
 }
 
