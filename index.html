@@ -382,8 +382,8 @@
             <img class="modal_window_logo" src="img/blog/logo.svg" alt="Testimonials">
             <p class="modal_window_text">We don't sell alcohol to minors. Please confirm that you are over 21 years old to enter this site.</p>
             <div class="modal_window_button">
-                <button class="modal_window_button_close" title="Yes, I'm 18+" onclick="document.getElementById('modal_age').style.display='none';">Yes, I'm 18+</button>
-                <button class="modal_window_button_open" title="No, I'm under 18" onclick="window.location.href = 'modal_age.html';">No, I'm under 18</button>
+                <button class="modal_window_button_close" title="Yes, I'm 18+" id="modal_window_close">Yes, I'm 18+</button>
+                <button class="modal_window_button_open" title="No, I'm under 18" id="modal_window_open">No, I'm under 18</button>
             </div>
         </div>
     </div>
@@ -585,10 +585,8 @@
             <p><span>All rights Reserved</span></p>
         </div>
     </footer>
-    <!-- Olvian block end -->
-    <script type="text/javascript">
-        var delay_popup = 1;	setTimeout("document.getElementById('modal_age').style.display='block'", delay_popup);
-    </script>
+    <!-- Olvian block end --> 
+    <script src="js/modal-age.js"></script>
     <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
     <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script src="slick/slick.min.js"></script>    
