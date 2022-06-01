@@ -11,7 +11,7 @@
     -moz-animation: fade .6s;
     animation: fade .6s;
     overflow: auto;
-    }
+}
 
 .modal_age_window {
     text-align: center;
@@ -108,39 +108,64 @@
     font-size: 15px;
 }
 
-.modal_newpage {
-    background-color: var(--background-color);
-    width: 100vw;
-    height: 100vh;
+@media (max-width: 370px) { 
+    .modal_age_window {
+        min-width: 100px;
+        max-width: 250px;
+    }
+    .modal_window_button {
+        margin: 5%;
+    }
+    .modal_window_p {
+        font-size: 30px;
+    }
+    .modal_window_logo {
+        width: 50px;
+    }
+    .modal_window_text {
+        font-size: 14px;
+    }
+    .modal_window_button_close {
+        font-size: 12px;
+    }
+    .modal_window_button_close:hover {
+        font-size: 12px;
+    }
+    .modal_window_button_open {
+        font-size: 12px;
+    }
+    .modal_window_button_open:hover {
+        font-size: 12px;
+    }
 }
 
-.modal_newpage_section {
-    text-align: center;
-    padding: 0 20%;
-    position: fixed; 
-    top: 20%;
-    
-
-}
-
-.modal_newpage_p {
-    font-family: 'Prata', serif;
-    font-size: 84px;
-    color: var(--main-text-color);
-    padding-top: 80px;
-    text-align: center;        
-}
- 
-.modal_newpage_logo {
-    width: 150px;
-    display: block;
-    margin: 0 auto;
-    margin-top: 25px;
-}
-        
-.modal_newpage_text {
-    color: var(--main-text-color);
-    font-size: 16px;
-    margin-top: 20px;
-    text-align: center;
+@media (max-width: 300px) { 
+    .modal_age_window {
+        min-width: 100px;
+        max-width: 150px;
+    }
+    .modal_window_button {
+        margin: 5%;
+    }
+    .modal_window_p {
+        font-size: 20px;
+    }
+    .modal_window_logo {
+        width: 50px;
+    }
+    .modal_window_text {
+        font-size: 10px;
+    }
+    .modal_window_button_close {
+        font-size: 9px;
+    }
+    .modal_window_button_close:hover {
+        font-size: 9px;
+    }
+    .modal_window_button_open {
+        font-size: 9px;
+    }
+    .modal_window_button_open:hover {
+        font-size: 9px;
+    }
 }
