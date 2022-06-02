@@ -120,6 +120,14 @@
 }
 
 .multiple-items {
-    max-width: 50%;
+    max-width: 80%;
     margin-bottom: auto;
+    margin-top: auto;
+}
+
+@media (min-width: 770px) {
+    .multiple-items {
+        max-width: 50%;
+        margin-bottom: auto;
+        margin-top: auto;
 }
