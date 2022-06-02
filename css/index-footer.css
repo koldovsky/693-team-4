@@ -6,16 +6,13 @@
     padding: 0 40px;
 }
 
-.footer__mass-mailing-block {
-
-}
-
 span.footer__mass-mailing-span {
     font-family: 'Great Vibes';
     color: #c8693a;
     font-size: 28px;
     text-align: start;
 }
+
 .footer__h4 {
     color: white;
     font-family: 'Prata', serif;
@@ -34,7 +31,6 @@ span.footer__mass-mailing-span {
 
 .footer__button {
     background-color: #c8693a;
-    width: 300px;
     height: 50px;
     font-size: 15px;
     font-weight: 700;
@@ -42,14 +38,13 @@ span.footer__mass-mailing-span {
     border: none;
     padding: 3px 10px;
     border-radius: 3px;
-    margin: 15px 0 0 0 ;
+    margin: 15px 0 0 0;
 }
 
 .footer__form-input {
     background-color: rgba(73, 73, 73, 0.24);
     border: none;
     display: block;
-    width: 300px;
     height: 50px;
     border-radius: 3px;
 }
@@ -58,13 +53,16 @@ span.footer__mass-mailing-span {
     display: flex;
 }
 
-.footer__form {
-    margin: 0 0 0 30px;
-}
 
-.footer__menu {
-    display: flex;
-    justify-content: space-between;
+@media (min-width: 800px) {
+    .footer__form {
+        margin: 0 0 0 30px;
+    }
+
+    .footer__menu {
+        display: flex;
+        justify-content: space-between;
+    }
 }
 
 .footer__link {
@@ -81,7 +79,7 @@ span.footer__mass-mailing-span {
 
 .footer__menu-contacts-social {
     display: flex;
-    
+
 }
 
 .rights {
