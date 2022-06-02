@@ -20,6 +20,7 @@
     --header-opasity-20-navbar-background: rgba(0, 0, 0, 20%);
     --header-burger-menu-background: rgb(26, 21, 18);
     --dark-color:rgb(0, 0, 0);
+    scroll-behavior: smooth;
 }
 
 img {
