@@ -1,4 +1,3 @@
-
 (function () {
    const slides = [
       '<div class="slide"><img src="img/main/main-banner-bottle.png" class="slide1" alt="bottle"></div>',

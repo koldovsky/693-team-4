@@ -199,10 +199,10 @@ span {
 
 .vine-image {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
     height: 50%;
     width: 50%;
+    max-width: 165px;
 }
 
 
@@ -277,6 +277,7 @@ span {
     .vine-image {
         height: 20%;
         width: 20%;
+        max-width: 165px;
     }
 
     .wine-image {
