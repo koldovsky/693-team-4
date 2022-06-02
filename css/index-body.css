@@ -45,9 +45,9 @@
 }
 
 .history__ul {
-    display: flex;  
+    display: flex;
     flex-direction: column;
-    justify-content: center; 
+    justify-content: center;
     padding-left: 150px;
     padding-right: 150px;
     list-style-type: none;
@@ -133,36 +133,47 @@
 
 .page-natural {
     color: var(--main-text-color);
-    background-color: var(--background-color);   
+    background-color: var(--background-color);
 }
 
 .h2-body {
-   text-align: center;
-   font-family: Prata, serif;
+    text-align: center;
+    font-family: Prata, serif;
 }
 
 .h3-body {
     text-align: center;
     font-family: 'Rubik', sans-serif;
     margin: 0 20px;
-  }
+}
 
 .row-conteiner {
-    display: flex;  
+    display: flex;
     flex-direction: column;
-    justify-content: center; 
-    height: 30px; 
-   }
+    justify-content: center;
+    height: 30px;
+}
+
 .wine-animation {
     margin-bottom: auto;
-}   
+    display: flex;
+    justify-content: center;
+}
+
+.slide1 {
+    max-width: 340px;
+}
+
+.slide2 {
+    max-width: 200px;
+}
 
 .row {
-background-color: var(--main-link-text-color);    
-border: 1px solid var(--main-link-text-color);
-height: 1px;
-width:15%;
-align-self: center;
+    background-color: var(--main-link-text-color);
+    border: 1px solid var(--main-link-text-color);
+    height: 1px;
+    width: 15%;
+    align-self: center;
 }
 
 span {
@@ -183,7 +194,7 @@ span {
     color: var(--hidden-text-color);
     text-align: center;
     padding-left: 10px;
-    padding-right: 10px;    
+    padding-right: 10px;
 }
 
 .vine-image {
@@ -227,7 +238,7 @@ span {
     color: var(--main-text-color);
     text-decoration: none;
     text-align: center;
-    }
+}
 
 .button2 {
     display: flex;
@@ -244,18 +255,20 @@ span {
     .page-natural {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 1fr 2fr;    
+        grid-template-rows: 1fr 2fr;
         grid-template-areas: "head head head"
-                        "img  block1 block2";
-        margin-bottom: -100px;                
-        padding-right: 20px;                 
-    }   
+            "img  block1 block2";
+        margin-bottom: -100px;
+        padding-right: 20px;
+    }
+
 
     .wine-main-image {
         display: flex;
         object-fit: contain;
         aspect-ratio: 1/1;
     }
+
     .top-content-block {
         grid-area: head;
         margin-bottom: 80px;
@@ -268,7 +281,7 @@ span {
 
     .wine-image {
         grid-area: img;
-        
+
     }
 
     .button-content-block1 {
@@ -287,6 +300,16 @@ span {
 
     .button1 {
         border: 0.2em solid var(--main-link-text-color);
+    }
+
+    .slide1 {
+        max-width: 270px;
+        margin-left: auto;
+    }
+
+    .slide2 {
+        max-width: 350px;
+        margin-left: auto;
     }
 }
 

@@ -1,8 +1,8 @@
 
 (function () {
    const slides = [
-      '<div class="slide"><img src="img/main/main-banner-bottle.png" alt="bottle"></div>',
-      '<div class="slide"><img src="img/main/giphy.gif" alt="glass"></div>'
+      '<div class="slide"><img src="img/main/main-banner-bottle.png" class="slide1" alt="bottle"></div>',
+      '<div class="slide"><img src="img/main/giphy.gif" class="slide2" alt="glass"></div>'
    ];
    
    let currentSlide = 0;
@@ -18,7 +18,7 @@
 
    function prevSlide() {
       currentSlide = currentSlide - 1 <= 0 ? slides.length - 1 : currentSlide - 1;
-      renderCarousel();
+      renderAnimation();
    }
 
    renderAnimation();
