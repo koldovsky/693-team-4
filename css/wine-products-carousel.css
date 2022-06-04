@@ -22,12 +22,16 @@
     width: 50px;
     height: 25px;
     margin-top: 160px;
+    margin-bottom: 160px;
+    position: static;
 }
 
 .forward {
     width: 50px;
     height: 25px;
     margin-top: 160px;
+    margin-bottom: 160px;
+    position: static;
 }
 
 
@@ -65,13 +69,7 @@
     }
 }
 
-@media (min-width: 640px) { 
-    .product-info {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding-left: 140px;
-    }
-}
+
 
 @media (min-width: 960px) { 
     .product-info {
