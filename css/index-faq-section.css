@@ -1,7 +1,7 @@
 .faq{
     background-color: var(--background-color);
     font-family: 'Prata', serif;
-    padding: 0 24px 1px;
+    padding: 0 0 1px;
 }
 
 .faq_col_one{
@@ -97,9 +97,6 @@
 }
 
 @media (min-width:700px){
-    .faq{
-        padding: 0 32px 1px;
-    }
     .faq-row-img-accordion{
         display:grid;
         grid-template-columns: 60% 40%;
@@ -132,9 +129,6 @@
 }
 
 @media(min-width:1000px){
-    .faq{
-        padding: 0 40px 1px;
-    }
     .faq_faq{
         font-size: 28px;
     }
