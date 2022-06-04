@@ -30,3 +30,29 @@
     margin-top: 160px;
 }
 
+
+.product-info {
+    background-color: var(--background-color);
+    color: var(--main-text-color);
+    display: grid;
+    grid-template-columns: 1fr  1fr 1fr 1fr;
+    padding-left: 300px;
+    
+}
+
+.buy-button {
+    text-align: center;
+    border: 3px solid #c8693a;
+    background-color: #c8693a;
+    padding: 15px 30px;
+    color: var(--main-text-color);
+    margin-right: 10px;
+    font-weight: 700;
+    font-size: 15px;
+    font-family: "Rubik";
+    border-radius: 2px;
+    display: inline-block;
+    margin-bottom: 10px;
+    line-height: 1.2;
+    text-decoration: none;
+}
