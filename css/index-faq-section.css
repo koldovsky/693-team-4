@@ -1,7 +1,7 @@
 .faq{
     background-color: var(--background-color);
     font-family: 'Prata', serif;
-    padding: 0 0 1px;
+    padding: 0 24px 1px;
 }
 
 .faq_col_one{
@@ -25,19 +25,27 @@
     list-style: none;
 }
 
-.accordion_faq h1{
+.accordion_button{
     font-size: 22px;
     color: var(--main-text-color);
     font-family: 'Prata', serif;
     font-weight: 400;
-    padding-top: 20px;
+    cursor: pointer;
 }
-
-.accordion_faq p{
+.accordion_content{
+    max-height: 0px;
+    overflow: hidden;
+    transition: 0.2s ease-in-out;
     font-family: 'Rubik', sans-serif;
     color: var(--hidden-text-color);
     font-size: 16px;
     font-weight: 400;
+}
+.accordion_divider{
+    background-color: var(--hidden-text-color);
+    height: 1px;
+    margin: 20px 0;
+    width: 100%;
 }
 
 .img_faq{
@@ -89,6 +97,9 @@
 }
 
 @media (min-width:700px){
+    .faq{
+        padding: 0 32px 1px;
+    }
     .faq-row-img-accordion{
         display:grid;
         grid-template-columns: 60% 40%;
@@ -121,7 +132,9 @@
 }
 
 @media(min-width:1000px){
-
+    .faq{
+        padding: 0 40px 1px;
+    }
     .faq_faq{
         font-size: 28px;
     }
