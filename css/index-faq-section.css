@@ -25,27 +25,19 @@
     list-style: none;
 }
 
-.accordion_button{
+.accordion_faq h1{
     font-size: 22px;
     color: var(--main-text-color);
     font-family: 'Prata', serif;
     font-weight: 400;
-    cursor: pointer;
+    padding-top: 20px;
 }
-.accordion_content{
-    max-height: 0px;
-    overflow: hidden;
-    transition: 0.2s ease-in-out;
+
+.accordion_faq p{
     font-family: 'Rubik', sans-serif;
     color: var(--hidden-text-color);
     font-size: 16px;
     font-weight: 400;
-}
-.accordion_divider{
-    background-color: var(--hidden-text-color);
-    height: 1px;
-    margin: 20px 0;
-    width: 100%;
 }
 
 .img_faq{
@@ -129,6 +121,7 @@
 }
 
 @media(min-width:1000px){
+
     .faq_faq{
         font-size: 28px;
     }
