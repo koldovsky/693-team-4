@@ -1,0 +1,141 @@
+/* Text styles */
+.common__upper_header-txt {
+    color: var(--main-link-text-color);
+    font-family: 'Great Vibes', cursive;
+    font-size: 28px;
+}
+
+.common__main_header-txt {
+    padding-top: 20px;
+    font-family: 'Prata', serif;
+    font-size: 48px;
+    color: var(--main-text-color);
+}
+
+.common__list_header-txt {
+    padding-top: 20px;
+    font-family: 'Prata', serif;
+    font-size: 20px;
+    color: var(--main-text-color);
+}
+
+.common__text-txt {
+    padding-top: 20px;
+    color: var(--main-text-color);
+    font-size: 18px;
+}
+
+.asrtm__list-txt{
+    list-style: none;
+    color: var(--hidden-text-color);
+    font-size: 16px;
+    line-height: 1.6;
+    font-family: Rubik, sans-serif;
+    font-weight: 400;
+}
+
+.asrtm__list_bullet-txt{
+    display: inline-block;
+    color: var(--main-link-text-color);
+}
+
+.crt_wn__button-txt{
+    color: var(--main-text-color);
+    font-size: 16px;
+}
+
+/* Display config */
+.common__img_wrapper-dis {
+    width: 100%;
+    margin-top: 25px;
+}
+
+.asrtm__img-dis {
+    width: 200px;
+    margin: 0 auto;
+    float: left;
+}
+
+.asrtm__main_header-dis {
+    padding-right: 15%;
+    padding-top: 20px;
+}
+
+.asrtm__list_header-dis {
+    padding-bottom: 15px;
+}
+
+.asrtm__text-dis {
+    margin-top: 20px;
+    padding-right: 20%;
+}
+
+.asrtm__section-dis{
+    background-image: url(../img/assortment/background.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 45%;
+    min-height: 1080px;
+}
+
+.asrtm__text_box-dis{
+    padding-top: 10%;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    float: right;
+    width: 45%;
+    min-height: 90%;
+}
+
+.crt_wn__section-dis{
+    color: var(--main-text-color);
+    background-color: var(--background-color);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.crt_wn__items-dis{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.crt_wn__text-dis{
+    padding-top: 5%;
+    display: flex;
+    flex-direction: column;
+}
+
+.crt_wn__img-dis{
+    width: 200px;
+    margin: 0 auto;
+}
+
+.crt_wn__itembox-dis{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.crt_wn__product-dis{
+    width: 100%;
+}
+.crt_wn__item_wall-dis{
+    width: 5%;
+}
+
+.crt_wn__button-dis{
+    background-color: var(--main-link-text-color);
+    width: 50%;
+    align-self: center;
+    margin-top: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    border-radius: 2px;
+}
+
+
