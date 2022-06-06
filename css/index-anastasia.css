@@ -116,12 +116,13 @@
 .crt_wn__itembox-dis{
     display: flex;
     flex-direction: column;
+    width: 20%;
     padding-top: 5%;
     padding-bottom: 5%;
 }
 
 .crt_wn__product-dis{
-    width: 270px;
+    width: 100%;
 }
 .crt_wn__item_wall-dis{
     width: 5%;
